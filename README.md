@@ -4,8 +4,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Getting Started with Create React App
 
-This project was bootstrapped with Create React App.
-
 To get started you need to:
   1. Clone the project
   2. npm install
