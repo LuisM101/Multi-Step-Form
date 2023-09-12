@@ -1,0 +1,136 @@
+h6{
+    font-family: "Ubuntu";
+    font-size: 16px;
+    color: #022959;
+    margin-bottom: 0;
+}
+.paymentPlan{
+    color: grey;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.freePlan{
+    margin-top: 7px;
+    font-size: 12px;
+    color: #022959;
+    width: 77px;
+}
+.plans-button{
+    width: 138px;
+    height: 183px;
+    padding-top: 10px;
+    padding-left: 15px;
+    margin-right: 10px;
+    border-radius: 10px;
+    border-color: #D6D9E6;
+    border: 1px;
+    border-style: solid;
+    text-align: left;
+    background-color: white;
+}
+.switch{
+    position: relative;
+    display: inline-block;
+    width: 38px;
+    height: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.slider-round{
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #022959;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 34px;
+}
+.slider-round:before{
+    position: absolute;
+    content: "";
+    height: 12px;
+    width: 12px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%;
+}
+.toggle-payment{ 
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.toggle-payment:checked + .slider-round{
+    background-color: #022959;
+}
+.toggle-payment:focus + .slider-round{
+    box-shadow: 0 0 1px #022959;
+}
+.toggle-payment:checked + .slider-round:before{
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(15px);
+}
+.switch-containter{
+    width: 445px;
+    height: 37px;
+    background-color: #F8F9FF;
+    text-align: center;
+    justify-content: center;
+    border-radius: 20px;
+    padding-top: 15px;
+    margin-top: 20px;
+}
+.chosen-payment{
+    font-weight: bold;
+    font-size: 14px;
+    font-family: "Ubuntu";
+    color: #022959;
+
+}
+.go-back{
+    text-decoration: none;
+    color: gray;
+    font-family: "Ubuntu";
+    font-size: 16px;
+}
+.not-selected-payment{
+    font-size: 14px;
+    font-family: "Ubuntu";
+    color: gray;
+}
+.step-container{
+    width: 450px;
+    height: 48px;
+    margin-top: 25%;
+}
+.next-addOns-button{
+    margin-left: 60%;
+    text-decoration: none;
+    color: white;
+    background-color: #022959;
+    width: 123px;
+    height: 48px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+}
+.next-addOns-button-decative{
+    margin-left: 60%;
+    text-decoration: none;
+    pointer-events: none;
+    color: white;
+    background-color: #022959;
+    width: 123px;
+    height: 48px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+}
+#selected-button{
+    border-color: purple;
+    background-color: #F8F9FF;
+}

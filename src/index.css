@@ -5,9 +5,90 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #EFF5FF;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+h3{
+  color: white;
+  font-size: 14px;
+  font-family: "Ubuntu";
+  letter-spacing: 1px;
+  line-height: auto;
+  margin-bottom: 0;
+  margin-top: 0;
+  width: 100px;
+  height: 16px;
+}
+.container{
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  height: 600px;
+  max-width: 940px;
+  border-radius: 10px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20vh;
+  margin-bottom: 5vh;
+  padding-left: 25px;
+}
+.siderbar-container{
+  position: relative;
+  text-align: center;
+}
+.section-container{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 135px;
+  height: 33px;
+  position: absolute;
+}
+#info-container{
+  bottom: 90%;
+  right: 49%;
+}
+#plan-container{
+  bottom: 75%;
+  right: 49%;
+}
+#addOns-container{
+  bottom: 60%;
+  right: 49%;
+}
+#summary-container{
+  bottom: 45%;
+  right:49%;
+}
+.active-number{
+  background-color: #C6FCFF;
+  color: #6F8FAF;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+}
+.number{
+  color: white;
+  border-color: white;
+  border-radius: 50%;
+  border-style: solid;
+  width: 25px;
+  height: 25px;
+}
+.step-number{
+  font-size: 12px;
+  color: lightblue;
+  margin: 0 0 0 0;
+}
+.currect-step-container{
+  width: 86px;
+  height: 33px;
+  text-align: left;
+  padding-left: 10px;
 }

@@ -1,0 +1,60 @@
+h2{
+    width: 155px;
+    height: 18px;
+    font-size: 16px;
+    font-family: "Ubuntu";
+    margin-bottom: 0;
+    color: #022959;
+}
+h5{
+    width: 180px;
+    height: 20px;
+    color: grey;
+    font-size: 14px;
+    margin-top: 15px;
+    font-family: "Ubuntu";
+}
+.addOn-holder{
+    display: flex;
+    width: 450px;
+    height: 81px;
+    border: 1px;
+    border-style: solid;   
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.addOn-title-descrip-container{
+    text-align: left;
+    margin-left: 25px;
+}
+.addOn-payment{
+    margin-top: 25px;
+    margin-left: 25%;
+}
+.next-summary-button{
+    margin-left: 60%;
+    text-decoration: none;
+    color: white;
+    background-color: #022959;
+    width: 123px;
+    height: 48px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+}
+.next-summary-button-decative{
+    margin-left: 60%;
+    text-decoration: none;
+    pointer-events: none;
+    color: white;
+    background-color: #022959;
+    width: 123px;
+    height: 48px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+}
+#addOns-holder-active{
+    background-color: #F8F9FF;
+    border-color: #483EFF;
+}

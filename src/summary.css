@@ -1,0 +1,87 @@
+.title-summary{
+    margin-bottom: 2px;
+    font-size: 16px;
+    font-family: "Ubuntu";
+    color: #022959;
+}
+.summary-info-container{
+    background-color: #F8F9FF;
+    width: 450px;
+    max-height: 182px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+.summary-payment{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Ubuntu";
+    color: #022959;
+    margin-left: auto;
+}
+.summary-container{
+    width: 450px;
+    height: 228px;
+}
+.summary-title-container{
+    text-align: left;
+}
+.summary-payment-container{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 402px;
+    height: 45px;
+    margin-left: 20px
+}
+.summary-addOns-container{
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    align-items: center;
+    width: 402px;
+    height: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.summary-addOns-name{
+    width: max-content;
+    height: 20px;
+    font-size: 14px;
+    font-family: "Ubuntu";
+    color: #9699AA;
+}
+.summary-addOns-payment{
+    width: 50px;
+    height: 20px;
+    font-size: 14px;
+    font-family: "Ubuntu";
+    color: #022959;
+    margin-left: auto;
+    
+}
+.summary-total-container{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    width: 402px;
+    height: 22px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.summary-total-title{
+    font-size: 14px;
+    font-family: "Ubuntu";
+    color: grey;
+}
+.summary-total-cost{
+    font-size: 20px;
+    font-family: "Ubuntu";
+    font-weight: bold;
+    color: #483EFF;
+    margin-left: auto;
+}
+.change-link{
+    font-size: 14px;
+    font-family: "Ubuntu";
+    color: grey;
+}
